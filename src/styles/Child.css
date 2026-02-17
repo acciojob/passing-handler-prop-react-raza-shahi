@@ -11,6 +11,9 @@
     border: 2px white ridge;
     width: 100%;
 }
+.row{
+    display: flex;
+}
 
 .subheading{
     color: white;
