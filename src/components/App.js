@@ -38,7 +38,7 @@ const App = () => {
         ))}
       </div>
 
-      <div className='row' id="children-wrapper">
+      <div className='row holder' id="children-wrapper">
         {
           ["selection1", "selection2", "selection3"].map(key => (
             <Selection key={key} applyColor={applyColor} item={key} />
