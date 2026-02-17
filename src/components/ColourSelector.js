@@ -4,7 +4,6 @@ import  '../styles/Child.css'
 const ColourSelector = (props) => {
   const { config, selectNextBackground} = props
   const { background, label, classname } = config
-  // console.log(key)
   return (
     <button className={classname} onClick={() => selectNextBackground({background: background})}>
       {label}
